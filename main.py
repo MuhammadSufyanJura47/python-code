@@ -1,7 +1,6 @@
 # import the necessary modules and libraries
 import json, unittest, datetime
 
-#use the open function to open read the three json files
 with open("./data-1.json","r") as f:
     jsonData1 = json.load(f)
 with open("./data-2.json","r") as f:
